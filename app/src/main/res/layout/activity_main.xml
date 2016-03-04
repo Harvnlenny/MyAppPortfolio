@@ -1,17 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.harvnlenny.myappportfolio.MainActivity">
+android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.harvnlenny.myappportfolio.MainActivity"
+android:gravity="center_horizontal">
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-</RelativeLayout>
+        android:textSize="@dimen/text_size"
+        android:text="@string/nanodegreeApps"
+        android:paddingBottom="30dp"/>
+
+    <Button
+        android:theme="@style/ButtonTheme"
+        android:id="@+id/spotifyButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/spotifyStreamer"
+        android:onClick="sendMessage"
+        />
+
+    <Button
+        android:id="@+id/scoresButton"
+        android:theme="@style/ButtonTheme"
+
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+
+        android:text="@string/scoresApp"
+        android:onClick="sendMessage"
+
+        />
+
+    <Button
+        android:id="@+id/libraryButton"
+        android:theme="@style/ButtonTheme"
+
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/libraryApp"
+        android:onClick="sendMessage"
+
+        />
+
+    <Button
+        android:id="@+id/buildItButton"
+        android:theme="@style/ButtonTheme"
+
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/buildItBigger"
+        android:onClick="sendMessage"
+
+        />
+
+    <Button
+        android:id="@+id/xyzButton"
+        android:theme="@style/ButtonTheme"
+
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/xyzReader"
+        android:onClick="sendMessage"
+
+        />
+
+    <Button
+        android:id="@+id/capstoneButton"
+        android:theme="@style/CapstoneTheme"
+
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/capstone"
+        android:onClick="sendMessage"
+
+        />
+
+</LinearLayout>
+
