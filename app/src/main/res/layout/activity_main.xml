@@ -1,85 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
     android:padding="@dimen/activity_horizontal_margin"
-    tools:context="com.harvnlenny.myappportfolio.MainActivity"
-android:gravity="center_horizontal">
+    tools:context="com.harvnlenny.myappportfolio.MainActivity">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_size"
+        android:paddingBottom="30dp"
         android:text="@string/nanodegreeApps"
-        android:paddingBottom="30dp"/>
+        android:textSize="@dimen/text_size"/>
 
     <Button
-        android:theme="@style/ButtonTheme"
         android:id="@+id/spotifyButton"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:text="@string/spotifyStreamer"
-        android:onClick="sendMessage"
+        android:theme="@style/ButtonTheme"
         />
 
     <Button
         android:id="@+id/scoresButton"
-        android:theme="@style/ButtonTheme"
-
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-
         android:text="@string/scoresApp"
-        android:onClick="sendMessage"
-
+        android:theme="@style/ButtonTheme"
         />
 
     <Button
         android:id="@+id/libraryButton"
-        android:theme="@style/ButtonTheme"
-
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:text="@string/libraryApp"
-        android:onClick="sendMessage"
-
+        android:theme="@style/ButtonTheme"
         />
 
     <Button
         android:id="@+id/buildItButton"
-        android:theme="@style/ButtonTheme"
-
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:text="@string/buildItBigger"
-        android:onClick="sendMessage"
+        android:theme="@style/ButtonTheme"
 
         />
 
     <Button
         android:id="@+id/xyzButton"
-        android:theme="@style/ButtonTheme"
-
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:text="@string/xyzReader"
-        android:onClick="sendMessage"
+        android:theme="@style/ButtonTheme"
 
         />
 
     <Button
         android:id="@+id/capstoneButton"
-        android:theme="@style/CapstoneTheme"
-
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:text="@string/capstone"
-        android:onClick="sendMessage"
+        android:theme="@style/CapstoneTheme"
 
         />
 
