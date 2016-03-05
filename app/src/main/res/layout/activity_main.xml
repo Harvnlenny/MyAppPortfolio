@@ -1,73 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
-    android:padding="@dimen/activity_horizontal_margin"
-    tools:context="com.harvnlenny.myappportfolio.MainActivity">
-
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="30dp"
-        android:text="@string/nanodegreeApps"
-        android:textSize="@dimen/text_size"/>
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:context="com.harvnlenny.myappportfolio.MainActivity">
 
-    <Button
-        android:id="@+id/spotifyButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:text="@string/spotifyStreamer"
-        android:theme="@style/ButtonTheme"
-        />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:text="@string/nanodegreeApps"
+            android:textSize="@dimen/text_size"/>
 
-    <Button
-        android:id="@+id/scoresButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:text="@string/scoresApp"
-        android:theme="@style/ButtonTheme"
-        />
+        <Button
+            android:id="@+id/spotifyButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/spotifyStreamer"
+            android:theme="@style/ButtonTheme"
+            />
 
-    <Button
-        android:id="@+id/libraryButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:text="@string/libraryApp"
-        android:theme="@style/ButtonTheme"
-        />
+        <Button
+            android:id="@+id/scoresButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/scoresApp"
+            android:theme="@style/ButtonTheme"
+            />
 
-    <Button
-        android:id="@+id/buildItButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:text="@string/buildItBigger"
-        android:theme="@style/ButtonTheme"
+        <Button
+            android:id="@+id/libraryButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/libraryApp"
+            android:theme="@style/ButtonTheme"
+            />
 
-        />
+        <Button
+            android:id="@+id/buildItButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/buildItBigger"
+            android:theme="@style/ButtonTheme"
 
-    <Button
-        android:id="@+id/xyzButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:text="@string/xyzReader"
-        android:theme="@style/ButtonTheme"
+            />
 
-        />
+        <Button
+            android:id="@+id/xyzButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/xyzReader"
+            android:theme="@style/ButtonTheme"
 
-    <Button
-        android:id="@+id/capstoneButton"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:text="@string/capstone"
-        android:theme="@style/CapstoneTheme"
+            />
 
-        />
+        <Button
+            android:id="@+id/capstoneButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/capstone"
+            android:theme="@style/CapstoneTheme"
 
-</LinearLayout>
+            />
 
+    </LinearLayout>
+
+</ScrollView>
